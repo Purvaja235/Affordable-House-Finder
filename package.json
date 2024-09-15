@@ -1,0 +1,17 @@
+{
+  "name": "affordable-house-finder",
+  "version": "1.0.0",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "start": "npm run start:frontend & npm run start:backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0"
+  }
+}
